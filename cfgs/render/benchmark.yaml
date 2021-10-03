@@ -1,0 +1,11 @@
+render:
+    fast_sampling: False # this activates a better implementation of empty space skipping and early ray termination
+    max_samples_per_ray: 8
+    transmittance_threshold: 0.01
+
+performance_monitoring: False
+render_only: True
+testskip: 1
+
+chunk_size: 10000 #40000
+
